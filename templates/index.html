@@ -12,25 +12,24 @@
 		  <h1> MASTERMiND </h1>
 		</div>
 
-	  <div class="col-3 grid">
+	  <div class="col-2 grid">
 			<img src="../static/logo.png">
 			<p> Become the mastermind by decoding the hidden combination of colors.
 				<ol>
 		      <li>Guess the 4 color code</li>
-		      <li>Receive a result for your attempt</li>
-						<ul>
-							<li>White pin - correct color, wrong position</li>
-							<li>Black pin - correct color, correct position</li>
-						</ul>
+		      <li><p>Receive a result for your attempt</p>
+							<p><span class="result-pin white"></span> - correct color, wrong position</p>
+							<p><span class="result-pin black"></span> - correct color, correct position</p>
+					</li>
 		      <li>Use this result to make a better educated guess in the next round</li>
 		      <li>Try to successfully decrypt the code in minimum number of attempts</li>
 		    </ol>
 			<p> Find playing instructions <a href="https://en.wikipedia.org/wiki/Mastermind_(board_game)#:~:text=Each%20guess%20is%20made%20by,in%20both%20color%20and%20position">here</a>.</p>
 	  </div>
 		<div class="col-1"></div>
-		<div class="col-4 board">
+		<div class="col-6 board">
 			<div class="row">
-				<div class="btn-group">
+				<div class="has-max btn-group">
 				  <button></button>
 				  <button></button>
 				  <button></button>
@@ -38,7 +37,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="btn-group">
+				<div class="has-max btn-group">
 				  <button></button>
 				  <button></button>
 				  <button></button>
@@ -46,7 +45,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="btn-group">
+				<div class="has-max btn-group">
 				  <button></button>
 				  <button></button>
 				  <button></button>
@@ -55,9 +54,9 @@
 			</div>
 		</div>
 		<div class="col-1"></div>
-		<div class="col-3">
-			<div class="btn-group">
-			  <button></button>
+			<div class="col-2 board">
+				<div class="row">
+					 <button class="pin"></button>
 			</div>
 		</div>
 	</body>
